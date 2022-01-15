@@ -1,0 +1,61 @@
+/*----------------------------------------*\
+     Common Design Section
+\*----------------------------------------*/
+h1{
+    font-size: 70px;
+}
+a{
+    text-decoration: none;
+}
+
+/*----------------------------------------*\
+     Header Design Section
+\*----------------------------------------*/
+nav, .header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*----------------------------------------*\
+     Navigation Bar Design Section
+\*----------------------------------------*/
+.nav-link ul{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.nav-link ul li{
+    list-style: none;    
+}
+.nav-link ul li a{
+    color: black;
+}
+/*----------------------------------------*\
+     Header Content Design Section
+\*----------------------------------------*/
+.half-width{
+    width: 50%;
+}
+.half-width.img{
+    transform: scale(0.9);
+    display: flex;
+    justify-content: right;
+}
+/*----------------------------------------*\
+            Link Button Design
+\*----------------------------------------*/
+.link-button{
+    width: 120px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #E02C6D;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.link-button a{
+    color: white;
+}
+.link-button i{
+    margin-left: 5px;
+}
