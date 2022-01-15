@@ -155,6 +155,8 @@ footer{
     }
     .header-content, .half-width.img, nav, .optional{
         flex-direction: column;
+        row-gap: 20px;
+        column-gap: 20px;
     }
     .popular-items{
         grid-template-columns: repeat(1, 1fr);
