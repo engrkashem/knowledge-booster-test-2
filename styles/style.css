@@ -7,12 +7,18 @@
 \*----------------------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
+    padding: 30px;
 }
 h1{
     font-size: 62px;
 }
 h2{
+    font-size: 35px;
     margin-bottom: 0;
+}
+h3{
+font-size: 25px;
+margin-bottom: 5px;
 }
 a{
     text-decoration: none;
@@ -24,7 +30,7 @@ p{
 /*----------------------------------------*\
      Header Design Section
 \*----------------------------------------*/
-header{
+header, section{
     margin-bottom: 100px;
 }
 nav, .header-content{
@@ -84,7 +90,7 @@ nav, .header-content{
     display: flex;
     justify-content: center;
     column-gap: 35px;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 /*----------------------------------------*\
      Populat Collection Design Section
@@ -112,4 +118,30 @@ nav, .header-content{
     text-align: right;
     margin-top: 50px;
     color: #E02C6D;
+}
+/*----------------------------------------*\
+     Optional Design Section
+\*----------------------------------------*/
+.optional{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.op-img{
+    width: 80%;
+}
+/*----------------------------------------*\
+     Optional Design Section
+\*----------------------------------------*/
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px ;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    padding-top: 15px;
 }
