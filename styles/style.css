@@ -58,6 +58,10 @@ nav, .header-content{
 /*----------------------------------------*\
      Header Content Design Section
 \*----------------------------------------*/
+.header-data:hover .heading{
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
 .half-width{
     width: 50%;
 }
