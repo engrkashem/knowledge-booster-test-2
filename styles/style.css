@@ -84,6 +84,7 @@ nav, .header-content{
     background-color: #E02C6D;
     text-decoration: none;
     border-radius: 20px;
+    margin-top: 10px;
 }
 .link-button a{
     color: white;
@@ -177,7 +178,7 @@ footer{
         row-gap: 20px;
     }
     .bannar img{
-        width: 90%;
+        width: 100%;
     }
 }
 @media only screen and (min-width:689px) and (max-width:992px) {
