@@ -151,7 +151,7 @@ footer{
 \*----------------------------------------*/
 @media only screen and (max-width:688px) {
     body{
-        padding-right: 20px;
+        padding: 0 20px;
     }
     .header-content, .half-width.img, nav, .optional{
         flex-direction: column;
