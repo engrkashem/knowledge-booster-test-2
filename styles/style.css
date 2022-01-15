@@ -38,6 +38,7 @@ nav, .header-content{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    row-gap: 30px;
 }
 /*----------------------------------------*\
      Navigation Bar Design Section
@@ -64,7 +65,6 @@ nav, .header-content{
     transform: scale(0.9);
     display: flex;
     justify-content: right;
-    flex-wrap: wrap;
 }
 /*----------------------------------------*\
             Link Button Design
@@ -90,6 +90,7 @@ nav, .header-content{
     display: flex;
     justify-content: center;
     column-gap: 35px;
+    row-gap: 20px;
     flex-wrap: wrap;
 }
 /*----------------------------------------*\
@@ -120,7 +121,7 @@ nav, .header-content{
     color: #E02C6D;
 }
 /*----------------------------------------*\
-     Optional Design Section
+        Optional Design Section
 \*----------------------------------------*/
 .optional{
     display: flex;
@@ -128,10 +129,10 @@ nav, .header-content{
     padding: 30px;
 }
 .op-img{
-    width: 80%;
+    width: 100%;
 }
 /*----------------------------------------*\
-     Optional Design Section
+         Footer Design Section
 \*----------------------------------------*/
 footer{
     text-align: center;
@@ -144,4 +145,33 @@ footer{
     justify-content: center;
     column-gap: 25px;
     padding-top: 15px;
+}
+/*----------------------------------------*\
+         Media Query Section
+\*----------------------------------------*/
+@media only screen and (max-width:688px) {
+    body{
+        padding-right: 20px;
+    }
+    .header-content, .half-width.img, nav, .optional{
+        flex-direction: column;
+    }
+    .popular-items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .half-width{
+        width: 90%;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:992px) {
+   
+    .header-content, .optional, .half-width.img{
+        flex-direction: column;
+    }
+    .popular-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .half-width{
+        width: 100%;
+    }
 }
